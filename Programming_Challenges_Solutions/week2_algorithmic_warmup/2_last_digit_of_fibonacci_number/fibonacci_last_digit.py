@@ -1,4 +1,9 @@
 # Uses Python3
+'''Last digit of F(n) (i.e., F(n) mod 10) will be 
+   the last digit of sum of last digits of  F(n-1) and F(n-2).
+   So, we need to only keep the last digit of F(k) k < n during 
+   the iterative computation. This can be done by taking mod 10'''
+
 import time
 import numpy as np
 
