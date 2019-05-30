@@ -79,7 +79,7 @@ def construct_edit_outputs(str1,str2,D):
 
 def edit_distance(str1,str2):
     D = compute_edit_distance_matrix_DP(str1,str2)
-    #print(D)
+    print(D)
     str1_,str2_ = construct_edit_outputs(str1,str2,D)
     #print(str1_)
     #print(str2_)
